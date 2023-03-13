@@ -1,0 +1,148 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color:  #007bff;
+    color: #e61919;
+    }
+    
+    header a {
+    color: #39bb1f;
+    text-decoration: none;
+    }
+    
+    header img {
+    height: 4rem;
+    }
+
+/* Style the main content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #1b4dbb;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+      }
+      
+      nav li {
+        margin: 0 1rem;
+      }
+      
+      nav a {
+        color: #333;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+        transition: background-color 0.3s ease;
+      }
+      
+      nav a:hover {
+        background-color: #333;
+        color: #fff;
+      }
+      
+      nav a.active {
+        background-color: #333;
+        color: #fff;
+      }
+      button.home-button {
+        background-color: #ff69b4;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 0.25rem;
+        margin-top: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      button.home-button:hover {
+        background-color: #ff6ec7;
+      }
+      
+      button.about-button {
+        background-color: #1e90ff;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 0.25rem;
+        margin-top: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      button.about-button:hover {
+        background-color: #4d94ff;
+      }
